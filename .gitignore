@@ -1,0 +1,23 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore VSCode or IDE config folders
+.vscode/
+.idea/
